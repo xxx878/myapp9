@@ -1,6 +1,8 @@
 import React from 'react'
-import Header from './Components/Header/Header';
-import Home from './Components/Home/Home';
+import Cardes from './Components/Cardes';
+import Header from './Components/Header';
+import Home from './Components/Home';
+
 
 
 
@@ -9,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
+      <Cardes />
     </div>
   );
 }
