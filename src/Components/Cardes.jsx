@@ -2,10 +2,12 @@ import React from 'react'
 
 import Card from 'react-bootstrap/Card';
 
+import img4 from '../assets/img4.webp'
+
 function Cardes() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={img4} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
